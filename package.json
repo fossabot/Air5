@@ -1,0 +1,27 @@
+{
+  "name": "air5",
+  "version": "1.0.8",
+  "description": "Air5 Database Systems",
+  "main": "app.js",
+  "keywords": [
+    "Air5",
+    "SliceWire",
+    "Database",
+    "lightweight",
+    "db",
+    "map"
+  ],
+  "homepage": "https://slicewire.gitbook.io/air5/",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "SliceWire",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "express": "^4.17.1",
+    "json5": "^2.1.2",
+    "lodash": "^4.17.15"
+  }
+}
