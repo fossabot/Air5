@@ -1,13 +1,13 @@
 {
   "name": "air5",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "Air5 Database Systems",
   "main": "app.js",
   "keywords": [
     "Air5",
     "SliceWire",
-    "Database",
-    "lightweight",
+    "database",
+    "air",
     "db",
     "map"
   ],
