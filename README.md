@@ -1,8 +1,6 @@
 # Air5
 ![Node](https://raw.githubusercontent.com/SliceWire/True-Captcha/master/data/Logos/Badges/Node.png) ![Version](https://raw.githubusercontent.com/SliceWire/True-Captcha/master/data/Logos/Badges/Version.png) ![Build](https://raw.githubusercontent.com/SliceWire/True-Captcha/master/data/Logos/Badges/Build.png)
 
-![Air5](https://i.ibb.co/8xFnnqH/Air5.png)
-
 **Powerful Database System**
 
 - Serverless
@@ -11,19 +9,27 @@
 
 - Simple
 
-- Compressed
-
 - 3x Faster Than Sqlite3
 
 - Completely JavaScript
-
-- Browser Compatible
 
 ### Installation
 
 ```bash
 $ npm i air5
 ```
+
+```bash
+$ yarn i air5
+```
+
+```bash
+$ pnpm i air5
+```
+
+### Documentation
+
+**https://slicewire.gitbook.io/air5/**
 
 ### Usage
 
@@ -37,7 +43,6 @@ const air = new Air5({
 
     name: 'Air5-database',
 
- 
     directory: './Air5/'
 
 })
