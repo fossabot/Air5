@@ -119,6 +119,7 @@ class AIR {
  * 
  *  console.log(data)
  *  //==> { key: 'value' }
+ * 
  * })
  * ```
  * @documentation http://slicewire.gitbook.io/air5
@@ -134,6 +135,33 @@ class AIR {
         return data.forEach
 
     }
+
+/**
+ * Returns All The Values In The Database As An Array
+ * 
+ * ```js
+ * air.values()
+ * //==> ['value1', 'value2', 'value3']
+ * ```
+ * @documentation http://slicewire.gitbook.io/air5
+ * @api Public
+ * @author SliceWire
+ * @license MIT
+ */
+
+values() {
+
+    const values = []
+
+    for (const [key, val] of data) {
+
+        values.push(val)
+
+    }
+
+    return values
+
+}
 
 /**
  * Returns All The Keys In The Database As An Array
@@ -169,7 +197,7 @@ class AIR {
  * 
  * ```js
  * air5.random()
- * //==> { randomKey: randomValue }
+ * //==> { randomKey: 'randomValue' }
  * ```
  * @documentation http://slicewire.gitbook.io/air5
  * @api Public
@@ -231,12 +259,12 @@ class AIR {
     }
 
 /**
- * Find Via Key, Value, Or Subvalue
+ * Filter Via Key, Value, Or Subvalue
  * 
  * Example:
  * 
  * ```js
- * air5.find(value => value === '4832')
+ * air5.filter(value => value === '4832')
  * //==> { key: value }
  * ```
  * @documentation http://slicewire.gitbook.io/air5
