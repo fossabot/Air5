@@ -1,5 +1,6 @@
 # Air5
 ![Node](https://raw.githubusercontent.com/SliceWire/True-Captcha/master/data/Logos/Badges/Node.png) ![Version](https://raw.githubusercontent.com/SliceWire/True-Captcha/master/data/Logos/Badges/Version.png) ![Build](https://raw.githubusercontent.com/SliceWire/True-Captcha/master/data/Logos/Badges/Build.png)
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSliceWire%2FAir5.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FSliceWire%2FAir5?ref=badge_shield)
 
 **Powerful Database System**
 
@@ -139,3 +140,6 @@ console.log(air.data())
 Air5™ © 2020 SliceWire Technologies Inc.
 
 *Power On.*
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FSliceWire%2FAir5.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FSliceWire%2FAir5?ref=badge_large)
